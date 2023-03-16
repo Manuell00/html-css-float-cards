@@ -1,22 +1,24 @@
 /* Definisco lo stile generale della mia pagina */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     font-family: 'Fredoka', sans-serif;
     margin: 20px auto;
     width: 75%;
     height: auto;
 }
 
+/* Definisco lo stile degli elementi dentro il mio header */
+
 h1 {
     text-align: center;
-    color:rgb(231, 70, 124);
+    color: rgb(231, 70, 124);
     margin-bottom: 30px;
 }
 
@@ -24,57 +26,55 @@ header p {
     text-align: center;
 }
 
-/* Grazie a questi comandi il testo delle colonne non viene sballato */
-.row::after{
+/* Definisco lo stile delle mie righe e delle mie colonne */
+.row::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.col::after{
+.col::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.row{
-    margin-top: 20px;
-    margin-left: 15px;
+.row {
+    margin-top: 40px;
+
 }
 
-.col{
+.col {
+    float: left;
     width: calc(100%/3);
     height: 100px;
     background-color: white;
 }
 
-.square{
+
+/* Definisco lo stile della square interna alla colonna */
+.square {
     float: left;
-    width: 90%;
+    width: 92%;
     height: auto;
     background-color: black;
     color: #fff;
 }
 
-.square img{
+.square img {
     height: 100px;
     float: left;
     margin-right: 10px;
 }
 
-.text-square{
+.text-square {
     margin-top: 10px;
 }
 
-.text-square p{
+.text-square p {
     padding-top: 9px;
 }
 
-#email{
-    color:lightskyblue ;
+#email {
+    color: lightskyblue;
 }
-
-
-
-
-/* Regole di debug per vedere la struttura mentre la sto testando */
