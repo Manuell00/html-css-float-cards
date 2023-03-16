@@ -1,0 +1,21 @@
+/* Definisco lo stile generale della mia pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    font-family: 'Fredoka', sans-serif;
+    margin: 20px auto;
+    width: 60%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(231, 70, 124);
+    margin-bottom: 30px;
+}
