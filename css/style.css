@@ -10,7 +10,7 @@
 .container{
     font-family: 'Fredoka', sans-serif;
     margin: 20px auto;
-    width: 60%;
+    width: 75%;
     height: auto;
 }
 
@@ -19,3 +19,62 @@ h1 {
     color:rgb(231, 70, 124);
     margin-bottom: 30px;
 }
+
+header p {
+    text-align: center;
+}
+
+/* Grazie a questi comandi il testo delle colonne non viene sballato */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.col{
+    width: calc(100%/3);
+    height: 100px;
+    background-color: white;
+}
+
+.square{
+    float: left;
+    width: 90%;
+    height: auto;
+    background-color: black;
+    color: #fff;
+}
+
+.square img{
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text-square{
+    margin-top: 10px;
+}
+
+.text-square p{
+    padding-top: 9px;
+}
+
+#email{
+    color:lightskyblue ;
+}
+
+
+
+
+/* Regole di debug per vedere la struttura mentre la sto testando */
